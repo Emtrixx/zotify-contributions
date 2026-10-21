@@ -1500,7 +1500,7 @@ class UserItem(Query):
         
         if selected_item_resps[0] == None:
             # option 0 == get all choices
-            selected_item_resps = user_item_resps[1:]
+            selected_item_resps = user_item_resps
         return selected_item_resps
     
     def execute(self):
